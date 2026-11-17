@@ -1,0 +1,7 @@
+﻿block,added,residual_var,var_explained_pct
+A,feature,0.2142,11.92
+A,model,0.2142,0.0
+A,xai,0.2142,0.0
+B,feature,0.0321,15.14
+B,generator,0.0315,1.8
+B,prompt,0.0314,0.24

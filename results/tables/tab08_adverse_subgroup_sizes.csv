@@ -1,0 +1,7 @@
+﻿domain,adverse_applicable,n_cases,n_adverse,adverse_share
+credit_personal,True,297,190,0.64
+credit_corporate,True,277,187,0.675
+credit_taiwan,True,297,180,0.606
+credit_gmsc,True,287,170,0.592
+income_adult,False,300,0,0.0
+churn,False,292,0,0.0

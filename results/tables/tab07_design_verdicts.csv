@@ -1,0 +1,4 @@
+﻿scenario,baseline_ci_halfwidth,baseline_target_met,delta_ci_halfwidth,delta_precision_met,power_at_010,power_target_met
+optimistic,0.0217,True,0.0116,True,1.0,True
+pilot,0.0339,True,0.0181,True,1.0,True
+pessimistic,0.0385,True,0.0215,True,1.0,True

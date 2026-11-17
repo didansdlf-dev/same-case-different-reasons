@@ -1,0 +1,19 @@
+\begin{table}[t]
+  \centering
+  \caption{The two analytical routes compared (primary domain). The pairwise
+  $\delta$ is the within-case additional variation (feature distance); the unique
+  contribution is the leave-one-out residual-variance reduction from the mixed
+  model. Spearman $\rho = -0.74$ between the two rankings.}
+  \label{tab:mixed-agree}
+  \small
+  \begin{tabular}{lcc}
+    \toprule
+    Factor & Pairwise $\delta$ (rank) & Unique contrib.\ (rank) \\
+    \midrule
+    Prediction model & $0.289$ \;(2) & $0.0000$ \;(3) \\
+    XAI method & $0.554$ \;(1) & $0.0000$ \;(3) \\
+    LLM & $-0.018$ \;(3) & $0.0128$ \;(1) \\
+    Prompt & $-0.020$ \;(4) & $0.0024$ \;(2) \\
+    \bottomrule
+  \end{tabular}
+\end{table}

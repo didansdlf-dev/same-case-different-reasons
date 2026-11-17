@@ -1,0 +1,18 @@
+\begin{table}[t]
+  \centering
+  \caption{Share of same-case pairs for which the direction and rank distances
+  are undefined (fewer than one, resp.\ two, shared drivers), by the component
+  varied (primary domain). Feature distance is always defined.}
+  \label{tab:coverage}
+  \small
+  \begin{tabular}{llccc}
+    \toprule
+    Component & Stage & Pairs & Direction undef.\ & Rank undef. \\
+    \midrule
+    XAI method & Evidence & 297 & $0.003$ & $0.071$ \\
+    Prediction model & Evidence & 297 & $0.000$ & $0.003$ \\
+    LLM & Generation & 297 & $0.000$ & $0.000$ \\
+    Prompt & Generation & 297 & $0.000$ & $0.000$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}

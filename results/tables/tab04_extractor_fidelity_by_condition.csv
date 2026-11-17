@@ -1,0 +1,7 @@
+﻿domain,prompt,recall,precision,direction_accuracy,hallucinated
+churn,basic,0.9,1.0,0.9792,0.0
+churn,constrained,1.0,1.0,1.0,0.0
+churn,verification,0.9533,1.0,0.9892,0.0
+credit,basic,0.8767,1.0,0.99,0.0
+credit,constrained,1.0,1.0,1.0,0.0
+credit,verification,0.9733,1.0,0.99,0.0

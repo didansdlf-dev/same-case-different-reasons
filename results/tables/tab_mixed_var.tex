@@ -1,0 +1,20 @@
+\begin{table}[t]
+  \centering
+  \caption{Sequential variance decomposition of the binary mention outcome,
+  by block (primary domain). ``Variance explained'' is the proportional
+  reduction in residual variance from adding the factor.}
+  \label{tab:mixed-var}
+  \small
+  \begin{tabular}{llcc}
+    \toprule
+    Block & Added factor & Residual variance & Variance explained \\
+    \midrule
+    A & feature & $0.2142$ & $11.92\%$ \\
+    A & model & $0.2142$ & $0.00\%$ \\
+    A & xai & $0.2142$ & $0.00\%$ \\
+    B & feature & $0.0321$ & $15.14\%$ \\
+    B & generator & $0.0315$ & $1.80\%$ \\
+    B & prompt & $0.0314$ & $0.24\%$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}

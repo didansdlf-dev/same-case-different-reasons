@@ -1,0 +1,8 @@
+﻿block,term,coef,ci_low,ci_high,excludes_zero
+A,model=RandomForest,-0.002,-0.0087,0.0047,False
+A,model=XGBoost,0.0,-0.0072,0.0072,False
+A,xai=SHAP,-0.0065,-0.0139,0.001,False
+B,generator=strong,0.0199,0.0106,0.0292,True
+B,generator=weak,-0.0478,-0.0615,-0.0341,True
+B,prompt=constrained,0.0299,0.0212,0.0386,True
+B,prompt=verification,0.0199,0.0106,0.0292,True

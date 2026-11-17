@@ -1,0 +1,4 @@
+﻿metric,observed,coder_ceiling,threshold,met
+Feature kappa,0.9919,0.982,0.8,True
+Direction kappa,1.0,0.9985,0.8,True
+Rank kappa,0.9951,0.9764,0.7,True

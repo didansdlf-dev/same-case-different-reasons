@@ -1,0 +1,41 @@
+﻿domain,subgroup,stage,factor,delta_feature,ci_low,ci_high
+credit_personal,all,Evidence,XAI method,0.554,0.531,0.577
+credit_personal,all,Evidence,Prediction model,0.289,0.264,0.317
+credit_personal,all,Generation,LLM,-0.018,-0.029,-0.007
+credit_personal,all,Generation,Prompt,-0.02,-0.031,-0.009
+credit_personal,adverse,Evidence,XAI method,0.523,0.496,0.55
+credit_personal,adverse,Evidence,Prediction model,0.27,0.237,0.302
+credit_personal,adverse,Generation,LLM,-0.019,-0.034,-0.005
+credit_personal,adverse,Generation,Prompt,-0.018,-0.033,-0.005
+credit_corporate,all,Evidence,XAI method,0.513,0.49,0.537
+credit_corporate,all,Evidence,Prediction model,0.35,0.323,0.377
+credit_corporate,all,Generation,LLM,-0.024,-0.039,-0.011
+credit_corporate,all,Generation,Prompt,-0.03,-0.043,-0.017
+credit_corporate,adverse,Evidence,XAI method,0.48,0.451,0.508
+credit_corporate,adverse,Evidence,Prediction model,0.326,0.295,0.358
+credit_corporate,adverse,Generation,LLM,-0.024,-0.042,-0.007
+credit_corporate,adverse,Generation,Prompt,-0.031,-0.047,-0.016
+credit_taiwan,all,Evidence,XAI method,0.211,0.175,0.247
+credit_taiwan,all,Evidence,Prediction model,0.117,0.078,0.158
+credit_taiwan,all,Generation,LLM,-0.084,-0.12,-0.049
+credit_taiwan,all,Generation,Prompt,-0.086,-0.122,-0.051
+credit_taiwan,adverse,Evidence,XAI method,0.162,0.116,0.205
+credit_taiwan,adverse,Evidence,Prediction model,0.072,0.021,0.125
+credit_taiwan,adverse,Generation,LLM,-0.101,-0.149,-0.054
+credit_taiwan,adverse,Generation,Prompt,-0.101,-0.149,-0.054
+credit_gmsc,all,Evidence,XAI method,0.342,0.321,0.362
+credit_gmsc,all,Evidence,Prediction model,0.225,0.2,0.25
+credit_gmsc,all,Generation,LLM,-0.013,-0.023,-0.004
+credit_gmsc,all,Generation,Prompt,-0.015,-0.024,-0.006
+credit_gmsc,adverse,Evidence,XAI method,0.339,0.314,0.365
+credit_gmsc,adverse,Evidence,Prediction model,0.197,0.168,0.228
+credit_gmsc,adverse,Generation,LLM,-0.012,-0.025,0.001
+credit_gmsc,adverse,Generation,Prompt,-0.012,-0.025,0.001
+income_adult,all,Evidence,XAI method,0.317,0.293,0.34
+income_adult,all,Evidence,Prediction model,0.134,0.111,0.158
+income_adult,all,Generation,LLM,0.031,0.017,0.045
+income_adult,all,Generation,Prompt,0.011,-0.002,0.024
+churn,all,Evidence,XAI method,0.429,0.408,0.45
+churn,all,Evidence,Prediction model,0.263,0.24,0.285
+churn,all,Generation,LLM,-0.008,-0.016,-0.001
+churn,all,Generation,Prompt,-0.008,-0.016,-0.001

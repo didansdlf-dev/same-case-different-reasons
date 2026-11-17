@@ -1,0 +1,10 @@
+﻿generator,prompt,omission,hallucination,direction_fidelity
+reference,basic,0.1188,0.0327,0.9912
+reference,constrained,0.0,0.0,1.0
+reference,verification,0.0231,0.0036,1.0
+strong,basic,0.0074,0.0017,0.9972
+strong,constrained,0.0,0.0,1.0
+strong,verification,0.0008,0.0006,1.0
+weak,basic,0.1986,0.0351,0.9376
+weak,constrained,0.0369,0.007,0.9977
+weak,verification,0.1444,0.0211,0.9805

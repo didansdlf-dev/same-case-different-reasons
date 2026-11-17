@@ -1,0 +1,4 @@
+﻿generator,treatment_misscaled,treatment_correct,placebo_misscaled,did
+weak,0.1333,0.1667,0.0262,-0.0146
+reference,0.0,0.0,0.0,0.0
+strong,0.0,0.0,0.0,0.0

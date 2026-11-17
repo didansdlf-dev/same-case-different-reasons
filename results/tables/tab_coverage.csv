@@ -1,0 +1,5 @@
+﻿factor,stage,n_pairs,direction_undefined,rank_undefined
+XAI method,Evidence,297,0.003,0.071
+Prediction model,Evidence,297,0.0,0.003
+LLM,Generation,297,0.0,0.0
+Prompt,Generation,297,0.0,0.0

@@ -1,0 +1,7 @@
+﻿domain,label,role,n_total,n_train,n_test,n_features,positive_rate,positive_meaning
+credit_personal,Personal-loan default,primary,32416,22691,9725,22,0.2187,default
+credit_corporate,Corporate credit rating,added,2029,1420,609,36,0.5742,investment grade
+credit_taiwan,Taiwan credit-card default,added,29944,20960,8984,30,0.2211,default
+credit_gmsc,Give Me Some Credit delinquency,added,149192,104434,44758,10,0.0669,serious delinquency
+income_adult,Adult census income,added,41439,29007,12432,96,0.2394,income above 50K
+churn,Telco customer churn,control,7003,4902,2101,30,0.2637,churn

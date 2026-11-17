@@ -1,0 +1,21 @@
+\begin{table}[t]
+  \centering
+  \caption{Fixed-effect coefficients from the linear-probability model for the
+  binary mention outcome, by block, with cluster-robust $95\%$ intervals;
+  ${}^{\ast}$ marks an interval excluding zero.}
+  \label{tab:mixed-fe}
+  \small
+  \begin{tabular}{llc}
+    \toprule
+    Block & Term & Coefficient \;[95\% CI] \\
+    \midrule
+    A & model=RandomForest & $-0.0020$ \;$[-0.0087,\,0.0047]$ \\
+    A & model=XGBoost & $0.0000$ \;$[-0.0072,\,0.0072]$ \\
+    A & xai=SHAP & $-0.0065$ \;$[-0.0139,\,0.0010]$ \\
+    B & generator=strong & $0.0199$ \;$[0.0106,\,0.0292]^{\ast}$ \\
+    B & generator=weak & $-0.0478$ \;$[-0.0615,\,-0.0341]^{\ast}$ \\
+    B & prompt=constrained & $0.0299$ \;$[0.0212,\,0.0386]^{\ast}$ \\
+    B & prompt=verification & $0.0199$ \;$[0.0106,\,0.0292]^{\ast}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
